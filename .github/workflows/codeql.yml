@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع الحي التفاعلي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>موقع الحي التفاعلي</h1>
+    <img class="header-image" src="https://via.placeholder.com/1200x400" alt="صورة الحي">
+</header>
+
+<nav>
+    <a href="#intro">التعريف بالحي</a>
+    <a href="#tasks">مهام الجمعية</a>
+    <a href="#members">لجنة الحي</a>
+    <a href="#events">أحداث اليوم</a>
+    <a href="#concerns">طرح الإنشغالات</a>
+    <a href="#neighborhood-concerns">إنشغالات الحي</a>
+    <a href="#contact">اتصل بنا</a>
+    <a href="#social">تابعنا على مواقع التواصل</a>
+</nav>
+
+<div class="grid-container">
+    <div class="sidebar">
+        <img src="https://via.placeholder.com/150" alt="صورة 1">
+        <img src="https://via.placeholder.com/150" alt="صورة 2">
+        <img src="https://via.placeholder.com/150" alt="صورة 3">
+        <img src="https://via.placeholder.com/150" alt="صورة 4">
+        <img src="https://via.placeholder.com/150" alt="صورة 5">
+        <img src="https://via.placeholder.com/150" alt="صورة 6">
+        <img src="https://via.placeholder.com/150" alt="صورة 7">
+        <img src="https://via.placeholder.com/150" alt="صورة 8">
+    </div>
+    <div class="content">
+        <section id="intro" class="section">
+            <h2>التعريف بالحي</h2>
+            <p>حيّنا هو أحد الأحياء العريقة في المدينة ويتميز بجماله وهدوئه. يقطنه العديد من العائلات ويشهد تطورًا مستمرًا في البنية التحتية والخدمات.</p>
+        </section>
+
+        <section id="tasks" class="section">
+            <h2>مهام الجمعية</h2>
+            <p>جمعية الحي تهدف إلى تحسين ظروف المعيشة، تطوير المرافق العامة، وتنظيم الأنشطة الثقافية والاجتماعية.</p>
+        </section>
+
+        <section id="members" class="section">
+            <h2>لجنة الحي</h2>
+            <div class="committee-photos">
+                <div class="committee-member">
+                    <img src="https://via.placeholder.com/100" alt="عضو 1">
+                    <p>الاسم 1</p>
+                </div>
+                <div class="committee-member">
+                    <img src="https://via.placeholder.com/100" alt="عضو 2">
+                    <p>الاسم 2</p>
+                </div>
+                <div class="committee-member">
+                    <img src="https://via.placeholder.com/100" alt="عضو 3">
+                    <p>الاسم 3</p>
+                </div>
+                <div class="committee-member">
+                    <img src="https://via.placeholder.com/100" alt="عضو 4">
+                    <p>الاسم 4</p>
+                </div>
+                <div class="committee-member">
+                    <img src="https://via.placeholder.com/100" alt="عضو 5">
+                    <p>الاسم 5</p>
+                </div>
+                <div class="committee-member">
+                    <img src="https://via.placeholder.com/100" alt="عضو 6">
+                    <p>الاسم 6</p>
+                </div>
+                <div class="committee-member">
+                    <img src="https://via.placeholder.com/100" alt="عضو 7">
+                    <p>الاسم 7</p>
+                </div>
+                <div class="committee-member">
+                    <img src="https://via.placeholder.com/100" alt="عضو 8">
+                    <p>الاسم 8</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="section">
+            <h2>أحداث اليوم</h2>
+            <p>تجد هنا قائمة بجميع الأحداث والأنشطة المقامة في الحي اليوم.</p>
+        </section>
+
+        <section id="concerns" class="section">
+            <h2>طرح الإنشغالات</h2>
+            <form id="concernForm" class="form-container">
+                <input type="text" id="concernName" placeholder="الاسم" required>
+                <textarea id="concernText" placeholder="اكتب هنا إنشغالك..." rows="5" required></textarea>
+                <button type="submit">إرسال الإنشغال</button>
+            </form>
+        </section>
+
+        <section id="neighborhood-concerns" class="section">
+            <h2>إنشغالات الحي</h2>
+            <ul id="concernList">
+                <!-- سيتم إضافة الإنشغالات هنا -->
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>اتصل بنا</h2>
+            <p>للتواصل مع الجمعية، يرجى الاتصال على الرقم التالي: 0123456789 أو إرسال بريد إلكتروني إلى: contact@example.com</p>
+        </section>
+
+        <section id="social" class="section">
+            <h2>تابعنا على مواقع التواصل</h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="https://via.placeholder.com/40?text=F" alt="فيسبوك">
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="https://via.placeholder.com/40?text=T" alt="تويتر">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="https://via.placeholder.com/40?text=I" alt="إنستغرام">
+                </a>
+            </div>
+            <p>تابعنا على الفيسبوك، تويتر، وإنستغرام للبقاء على اطلاع بجميع الأخبار والأنشطة.</p>
+        </section>
+    </div>
+</div>
+
+<footer>
+    <p>© جميع الحقوق محفوظة - جمعية الحي 2024</p>
+</footer>
+
+<script>
+    // تفعيل الحركة عند التمرير
+    document.addEventListener('scroll', function() {
+        const sections = document.querySelectorAll('.section');
+        const scrollPosition = window.scrollY + window.innerHeight;
+
+        sections.forEach(section => {
+            if (scrollPosition > section.offsetTop + 100) {
+                section.classList.add('visible');
+            }
+        });
+    });
+
+    // إضافة الإنشغالات إلى قائمة إنشغالات الحي
+    document.getElementById('concernForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const name = document.getElementById('concernName').value;
+        const text = document.getElementById('concernText').value;
+
+        if (name && text) {
+            const concernList = document.getElementById('concernList');
+            const li = document.createElement('li');
+            li.textContent = `${name}: ${text}`;
+            concernList.appendChild(li);
+
+            // إعادة تعيين الحقول
+            document.getElementById('concernName').value = '';
+            document.getElementById('concernText').value = '';
+        }
+    });
+</script>
+
+</body>
+</html>
